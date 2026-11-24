@@ -1,0 +1,6 @@
+{
+  "name": "Proxmox Backup & Sync Manager",
+  "description": "Sistema para conectar clusters Proxmox VE, monitorar recursos de VMs (CPU, RAM, Disco, IP, Snapshots), transferir backups entre servidores e automatizar rotinas com logs em tempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
