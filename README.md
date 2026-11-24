@@ -2,7 +2,7 @@
 
 Um painel único para **vários clusters Proxmox VE**: veja todas as VMs e contêineres, crie snapshots e backups sob demanda e organize as rotinas de backup.
 
-> 📸 _Print do explorador de VMs_
+![Inventário de VMs e LXCs de vários clusters](docs/home.png)
 
 ## Sobre
 
@@ -25,6 +25,13 @@ Quem cuida de mais de um Proxmox acaba pulando entre várias abas do painel web 
 | Transferência de backup entre servidores | 🚧 Em desenvolvimento: a interface já existe, mas a cópia dos dados ainda não é feita |
 
 O painel começa com servidores de demonstração. Depois de cadastrar um servidor real, use a opção de limpar os dados de demonstração.
+
+## Telas
+
+<table>
+<tr><td width="50%" align="center"><img src="docs/transferencias.png" alt="Transferência de backup entre clusters, com log ao vivo" /><br /><sub>Transferência de backup entre clusters, com log ao vivo</sub></td><td width="50%" align="center"><img src="docs/automacoes.png" alt="Rotinas automáticas de backup e réplica" /><br /><sub>Rotinas automáticas de backup e réplica</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/repositorio.png" alt="Repositório de backups por storage" /><br /><sub>Repositório de backups por storage</sub></td></tr>
+</table>
 
 ## Requisitos
 

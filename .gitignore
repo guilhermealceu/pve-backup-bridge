@@ -8,3 +8,4 @@ coverage/
 !.env.example
 .env
 .env.*
+server/data-store.json
