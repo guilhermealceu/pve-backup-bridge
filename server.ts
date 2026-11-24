@@ -530,7 +530,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Proxmox Backup & Sync Server running on http://0.0.0.0:${PORT}`);
+    console.log(`PVE Backup Bridge running on http://0.0.0.0:${PORT}`);
   });
 }
 

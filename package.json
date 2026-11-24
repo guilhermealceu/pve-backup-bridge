@@ -1,7 +1,10 @@
 {
-  "name": "react-example",
+  "name": "pve-backup-bridge",
+  "version": "1.0.0",
+  "description": "Conecta clusters Proxmox VE, monitora VMs, cria snapshots e backups e organiza rotinas de backup.",
+  "license": "MIT",
+  "author": "Guilherme Dill (RUNE Projects)",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
@@ -12,7 +15,6 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@google/genai": "^2.4.0",
     "@tailwindcss/vite": "^4.1.14",
     "@vitejs/plugin-react": "^5.0.4",
     "lucide-react": "^0.546.0",
